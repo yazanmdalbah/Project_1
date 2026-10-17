@@ -23,20 +23,20 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="about" class="contents">
             <h2>About Me</h2>
-            <p>I am Yazan Dalbah, a bachelor's student in the Computer Science Apprenticeship Program at An-Najah National University.</p>
-            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUww0oA8pSFYGF6bi0ZigwdPxbY_Hi3QfoVkdkBxC29MjDHcBE" alt="Grey profile picture   " width="350" height="350">
+            <p>Hi, I'm Yazan. I study Computer Science at An-Najah National University. I'm still learning, so I spend a lot of time practicing what I learn in class. I like making small things with code and figuring out how they work. Sometimes I make mistakes, but fixing them helps me understand the lesson better.</p>
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUww0oA8pSFYGF6bi0ZigwdPxbY_Hi3QfoVkdkBxC29MjDHcBE" alt="Grey profile picture   " width="200" height="200">
         </section>
 
-        <section id="research">
+        <section id="research" class="contents">
             <h2>Research</h2>
-            <p>I am not currently working on any research.</p>
+            <p>I'm not working on research right now. I'm focusing on my classes and learning the basics first. Cybersecurity sounds interesting to me, and I hope to learn more about it as I continue my studies.</p>
         </section>
 
-        <section id="education">
+        <section id="education" class="contents">
             <h2>Education</h2>  
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Degree</th>
@@ -50,7 +50,7 @@
 
                 <tbody>
                     <tr>
-                        <td>Bachelor</td>
+                        <td>Bachelor's (in progress)</td>
                         <td>Computer Science Apprenticeship Program</td>
                         <td>An-Najah National University</td>
                         <td>Department of IT</td>
@@ -59,21 +59,21 @@
                     </tr>
 
                     <tr>
-                        <td>Master</td>
+                        <td>Master (planned)</td>
                         <td>Cybersecurity</td>
-                        <td>University of Amsterdam</td>
+                        <td>To be decided</td>
                         <td>Department of Computer Science</td>
-                        <td>Netherlands</td>
-                        <td>2030 - 2032</td>
+                        <td>To be decided</td>
+                        <td>After 2029</td>
                     </tr>
 
                     <tr>
-                        <td>PhD</td>
+                        <td>PhD (possible future goal)</td>
                         <td>Ph.D. in Cyber Operations</td>
-                        <td>University of Oxford</td>
+                        <td>To be decided</td>
                         <td>Department of Computer Science</td>
-                        <td>United Kingdom</td>
-                        <td>2033 - Present</td>
+                        <td>To be decided</td>
+                        <td>After the master's degree</td>
                     </tr>
 
                 </tbody>
@@ -82,9 +82,7 @@
 
             <h3>Academic Activities and Learning Goals</h3>
 
-            <p>As a second-year student, I am working toward these goals:</p>
-
-            <ol>
+            <ol class="list" >
                 <li>Strengthen my programming skills through university coursework.</li>
                 <li>Practice building simple web pages with HTML.</li>
                 <li>Learn the fundamentals of cybersecurity.</li>
@@ -94,7 +92,7 @@
 
         </section>
 
-        <section id="projects">
+        <section id="projects" class="contents">
             <h2>Projects & Technical Experience</h2>
             
             <article>
@@ -108,16 +106,17 @@
             </article>
 
             <article>
+
                 <h3>Cybersecurity Awareness Website</h3>
                 <p>I created a basic website that explains strong passwords, phishing emails, and safe internet browsing.</p>
             </article>
 
         </section>
 
-        <section id="interests">
+        <section id="interests" class="contents">
             <h2>Technical Interests</h2>
 
-            <ul>
+            <ul class="list">
                 <li>Cybersecurity</li>
                 <li>Git and GitHub</li>
                 <li>Software Engineering</li>
@@ -126,18 +125,16 @@
             </ul>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="contents">
             <h2>Contact Me</h2>
 
             <form action="#contact" method="get">
 
-                    <label for="title">Title:</label><br>
-                    <input type="text" id="title" name="title" required>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title" required><br><br>
 
-                <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="6" cols="55" required></textarea>
-                </p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="6" cols="55" required></textarea><br><br>
 
                 <button type="submit">Send Message</button>
                 <button type="reset">Reset</button>     

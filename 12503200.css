@@ -1,3 +1,98 @@
-.education{
-    background-color: red;
+body{
+  margin: 0;
+  background-color: #d3d9de;
+}
+
+header,footer {
+  background-color: #1344a0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none
+}
+header h1 {
+    margin:  0;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h2{
+    color: #1344a0;
+    border-bottom: solid black 1px;
+    padding-bottom: 10px;
+}
+
+.contents{
+    background-color: white;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+table{ 
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,td {
+  padding: 10px;
+  border:  1.5px solid; 
+}
+
+th{
+  background-color: #e4edf6;
+  color: #26364a;
+}
+
+h3{
+    color:#4d4dff
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    background-color: #1344a0;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
 }
