@@ -4,6 +4,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header styling */
 header {
   background-color: #008080;
   text-align: left;
@@ -14,19 +15,29 @@ header {
   border-bottom: black solid 8px;
 }
 
+/* making the lists better for looking  */
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* to make them all in the middle with good format */
 main {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
 }
 
+/* for the name name to make it bigger and there no margin above */
 h1{
     font-size: 5em;
     margin : 0;
     color: white;
 }
 
-
+/* to make it more clear and in row with better desgin and make intracting with them more clear  */
 header nav a{
     text-decoration: none;
     color:white;
@@ -42,20 +53,31 @@ header nav ul{
     margin: 0;
     list-style: none;
 }
+nav a:hover{
+    background-color: red;
+}
 
+/* better desgin for the degree */
 .degree{
     color: #E1E1E1;
     margin: 15px 0 25px;
     font-size: 1.5em;
 }
 
-.contents{
+/* to make them in more clearer form with better borders and unique style */
+section {
     background-color: rgba(228, 224, 224, 1);
     padding: 22px;
     margin-bottom: 15px;
     border: solid 2px;
     box-shadow: 5px 6px black;
 }
+
+#about img{
+    border: solid 3px #A66783;
+    box-shadow: 5px 5px black;
+}
+
 
 h2{
     padding-bottom: 7px;
@@ -64,28 +86,22 @@ h2{
     border-bottom: #6E4841 3px dotted;
 }
 
+/* to make the table have a better borders and better desgin  */
 table{
     border-collapse: collapse;
     width: 100%;
     background-color: #F1F1F1;
 }
-
 td,th{
     border: black solid 2.2px;
     padding: 6px;
     text-align: left;
 }
-
 th{
     background-color: #DCCE40;
 }
 
-.list{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
+/* making a btter desgin and more unique one with it by using that there is only 3 projects there */
 article{
     display:inline-block;
     width: 30%;
@@ -103,6 +119,7 @@ input , textarea{
     max-width: 500px;
 }
 
+/* make it have better desgin and approachabale one with more interactable buttons */
 button{
     padding: 10px 15px;
     color:white;
@@ -111,15 +128,9 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-
 .reset{
     background-color: black;
 }
-
-nav a:hover{
-    background-color: red;
-}
-
 button:hover{
     background-color: #F5BF0F;
 }
@@ -133,12 +144,7 @@ footer{
     border-top: solid black 6px;
 }
 
-
-#about img{
-    border: solid 3px #A66783;
-    box-shadow: 5px 5px black;
-}
-
+/* to make it better with different screen sizes after trying these are the things i have found problems with and fixed it */
 @media (max-width:768px) {
 
   header nav ul {
